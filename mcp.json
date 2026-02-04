@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "conversation-history": {
+      "type": "stdio",
+      "command": "python3",
+      "args": ["server.py"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

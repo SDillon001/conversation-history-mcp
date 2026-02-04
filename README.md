@@ -37,20 +37,22 @@ ln -s "$(pwd)" ~/.claude/mcp-servers/conversation-history
 
 ### Configuration
 
-Add to your `~/.claude/settings.json`:
+Add to your `~/.claude.json` under the `mcpServers` key:
 
 ```json
 {
   "mcpServers": {
     "conversation-history": {
-      "command": "python",
-      "args": ["/path/to/conversation-history-mcp/server.py"]
+      "type": "stdio",
+      "command": "python3",
+      "args": ["server.py"],
+      "cwd": "/path/to/conversation-history-mcp"
     }
   }
 }
 ```
 
-Replace `/path/to` with the actual path to your installation.
+Replace `/path/to/conversation-history-mcp` with the actual path to your installation.
 
 ## Usage
 
