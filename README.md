@@ -21,7 +21,7 @@ A local MCP server that indexes and searches your Claude Code conversation histo
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/conversation-history-mcp.git
+git clone https://github.com/SDillon001/conversation-history-mcp.git
 cd conversation-history-mcp
 
 # Install dependencies
